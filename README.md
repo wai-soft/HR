@@ -50,7 +50,7 @@ Edit Users: Update user details using edit_user.php.
 
 Delete Users: Remove users registered in the system.
 
-Login & Logout: Secure login system using AuthController.php, with password verification supported by password_verify().
+Login & Logout: Secure login system using AuthController.php.
 
 F. Dashboard
 
