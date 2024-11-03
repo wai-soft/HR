@@ -1,0 +1,159 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.header img {
+    height: 50px;
+    vertical-align: middle;
+}
+
+.header h1 {
+    display: inline;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+.sidebar {
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #333;
+    color: #fff;
+    padding-top: 20px;
+}
+
+.sidebar a {
+    display: block;
+    color: #fff;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.sidebar a:hover {
+    background-color: #575757;
+}
+
+.sidebar .submenu {
+    display: none;
+    background-color: #444;
+}
+
+.sidebar .submenu a {
+    padding-left: 30px;
+}
+
+.sidebar .submenu a:hover {
+    background-color: #575757;
+}
+
+.main-content {
+    margin-left: 250px;
+    padding: 20px;
+}
+
+.card {
+    background: #fff;
+    border-radius: 10px;
+    margin: 20px 0;
+    padding: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+.card h1, .card h2 {
+    margin-top: 0;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.table th, .table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+}
+
+.table th {
+    background-color: #007bff;
+    color: white;
+    text-align: left;
+}
+
+.form-container {
+    width: 50%;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.form-container label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-container input[type="text"],
+.form-container input[type="email"],
+.form-container input[type="number"],
+.form-container input[type="date"],
+.form-container input[type="password"],
+.form-container textarea,
+.form-container select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.form-container input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.form-container input[type="submit"]:hover {
+    background-color: #0056b3;
+}
